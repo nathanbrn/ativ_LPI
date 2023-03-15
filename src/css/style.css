@@ -98,12 +98,50 @@ footer {
     align-items: center;
 }
 
-footer h4 {
-    
-}
-
 footer ul {
     list-style: none;
     display: flex;
     flex-direction: column;
+}
+
+#btn_left {
+    height: 300px;
+    display: flex ;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 12px;
+    transition: .4s ease-in-out;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    background-color: #acac;
+}
+
+#btn_left:hover {
+    background-color: #483D8B;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#btn_right {
+    height: 300px;
+    display: flex ;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 12px;
+    transition: .4s ease-in-out;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    background-color: #acac;
+}
+
+#btn_right:hover {
+    background-color: #483D8B;
+    color: #fff;
+    border: 1px solid #fff;
 }
