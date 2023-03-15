@@ -1,0 +1,24 @@
+main {
+    flex-direction: column;
+}
+
+main h2 {
+    text-shadow: #b8aaaa 2px 3px 2px;
+
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+}
+
+main div .img_card {
+    margin: 10px;
+    width: 500px;
+}
+
+main div .paragraph_card {
+    max-width: 500px;
+    padding: 10px;
+    text-overflow: ellipsis;
+}

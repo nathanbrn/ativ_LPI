@@ -1,0 +1,64 @@
+main {
+    height: 500px;
+}
+
+form {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(1, 1, 1, .4);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: #111;
+}
+
+form ul li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+form ul li input {
+    padding: 8px;
+}
+
+form ul li:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+form ul li:nth-child(4) input {
+    padding: 30px 10px;
+}
+
+form input.btn_enviar {
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: .4s ease-in-out;
+}
+
+form input.btn_enviar:hover {
+    background-color: #191970;
+}
+
+input {
+    width: 400px;
+    margin: 10px;
+}
+
+form ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 400px) {
+   
+}
